@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WordBeater</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- Font Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="layer"></div>
+  <div class="layout">
+    <h2>Your Data</h2>
+    <p class="data-p prog">Progress: <span></span></p>
+    <p class="data-p pref">Preference: <span></span></p>
+    <p class="data-p answered">Answered: <span></span></p>
+    <p class="data-p not-answered">Not Answered: <span></span></p>
+  </div> 
+
+  <h1>WordBeater</h1>
+  <p class="sec">Type The Given Word With In <span>3</span> Seconds:</p>
+  <p class="sec have-word">You Have <span></span> From Words</p>
+  <div class="random-word"></div>
+  <div class="input-word">
+    <input type="text" placeholder="Start Typing...">
+  </div>
+  <div class="status"></div>
+  <div class="data">
+    <div class="time">Time Left: <span>3</span></div>
+    <div class="score">Score: <span>0</span></div>
+  </div>
+  <div class="instructions">
+    <h3>instructions</h3>
+    Type each word in the given amount of second to score.
+    To play again, just type the current word. Your score will reset
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

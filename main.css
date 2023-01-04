@@ -1,0 +1,115 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  background-color: #404c52;
+}
+
+.layer {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 74px);
+  background: #344248fc;
+}
+
+.layout {
+  display: none;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #607d8b;
+  width: 45%;
+  padding: 0 0 0 25px;
+  border-radius: 10px;
+}
+
+p.data-p {
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+h1 {
+  background: #607d8b;
+  text-align: center;
+  padding: 7px;
+  color: #fff;
+  margin: auto;
+}
+
+.sec {
+  color: #fff;
+  text-align: center;
+  margin: 25px;
+}
+
+span {
+  color: #20e0f9;
+}
+
+.random-word {
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+}
+
+.input-word {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  border: none;
+  padding: 6px 7px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+.status {
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.time, .score {
+  color: #fff;
+  font-weight: bold;
+}
+
+.data {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+h3 {
+  margin: 2px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.instructions {
+  background: #607d8b;
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  padding: 9px;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 13px;
+}
